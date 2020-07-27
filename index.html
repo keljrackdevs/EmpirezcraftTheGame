@@ -2,32 +2,47 @@
 
 <header>
     <title>Empirezcraft - Home</title>
+    <style>
+      #MainBody {
+        padding: 10px;
+      }
+      #Navigation {
+        width: 200px;
+        float: top;
+      }
+      #SomeText {
+        width: 500px;
+        float: right;
+      }
+      #Title {
+        width: 2000px;
+        float: right;
+      }
+    </style>
   <body style="background-color:#515151">
-    <script type="text/javascript">
-      function HomeButton() {
-        alert("Home");
-      }
-      function DownloadButton() {
-        alert("Download");
-      }
-      function ContactButton() {
-        alert("Contact");
-      }
-      function AboutButton() {
-        alert("About");
-      }
-    </script>
-      <input type="button" value="Home Page" style="width:200px; height:74px;background:url(CantClick.png)" id="HomeButton" onclick="HomeButton()">
-      <br />
-      <input type="button" value="Download Page" style="width:200px; height:74px;background:url(CanClick.png)" id="DownloadButton" onclick="DownloadButton()">
-      <br />
-      <input type="button" value="Contact Page" style="width:200px; height:74px;background:url(CanClick.png)" id="ContactButton" onclick="ContactButton()">
-      <br />
-      <input type="button" value="About Page" style="width:200px; height:74px;background:url(CanClick.png)" id="AboutButton" onclick="AboutButton()">
-      <br />
-
-    <form>
-    </form>
+      <div id="MainBody">
+        <div id="Title">
+          <center><font size="+6" color="#203424">Empirezcraft</font></center>
+          <br />
+          <center><font size="+3" color="#203424">Craft Your Empire</font></center>
+        </div>
+        <div id="SomeText">
+          <h2>
+            Hello you welcome to my website if you want to know more about my game then go to the about section<br />
+            if you want to download the current game then click on the download tab<br />
+            if you want to contact me then click the contact tab so I home you enjoy my website and will download my game
+          </h2>
+        </div>
+        <div id="Navigation">
+          <a href="index.html"><img src="Images/HomeButton.png" alt="HomeButton" style="width:200px;height:75px;"></img></a>
+          <br />
+          <a href="Download.html"><img src="Images/DownloadButton.png" alt="DownloadButton" style="width:200px;height:75px;"></img></a>
+          <br />
+          <a href="Contact.html"><img src="Images/ContactButton.png" alt="ContactButton" style="width:200px;height:75px;"></img></a>
+          <br />
+          <a href="About.html"><img src="Images/AboutButton.png" alt="ContactButton" style="width:200px;height:75px;"></img></a>
+        </div>
+      </div>
   </body>
 
 </header>
