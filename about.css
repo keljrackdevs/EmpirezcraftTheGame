@@ -1,0 +1,59 @@
+:root {
+  --normal-color: #1c1c1c;
+  --hover-color: #131313;
+  --text-normal-color: #3A2F21;
+  --text-hover-color: #3D2E1B;
+  --normal-size: 2rem;
+  --hover-size: 2.75rem;
+  --describing-text-size: 1.25rem;
+  --describing-text-hover-size: 1.75rem;
+  --transition-speed: 1000ms;
+}
+
+.Describing {
+  transition: var(--transition-speed);
+  color: var(--text-normal-color);
+  font-size: var(--describing-text-size);
+}
+
+.Describing:hover {
+  transition: var(--transition-speed);
+  color: var(--text-hover-color);
+  font-size: var(--describing-text-hover-size);
+}
+
+.About-Text {
+  transition: var(--transition-speed);
+  color: var(--normal-color);
+  font-size: var(--normal-size);
+}
+
+.About-Text:hover {
+  transition: var(--transition-speed);
+  color: var(--hover-color);
+  font-size: var(--hover-size);
+}
+
+
+.How-This-Game-Came-To-Be {
+  transition: var(--transition-speed);
+  color: var(--normal-color);
+  font-size: var(--normal-size);
+}
+
+.How-This-Game-Came-To-Be:hover {
+  transition: var(--transition-speed);
+  color: var(--hover-color);
+  font-size: var(--hover-size);
+}
+
+.Empirezcraft-Story {
+  color: var(--normal-color);
+  font-size: var(--normal-size);
+}
+
+.Empirezcraft-Story:hover {
+  transition: var(--transition-speed);
+  color: var(--hover-color);
+  font-size: var(--hover-size);
+}

@@ -1,0 +1,25 @@
+.Top-Text {
+  font-size: 4rem;
+  color: var(--main-text-color);
+}
+
+.Top-Text:hover {
+  font-size: 4rem;
+  color: var(--main-text-hover-color);
+}
+
+:root {
+  background-color: #38384f;
+  --main-text-color: #0E0E0E;
+  --main-text-hover-color: #181818;
+  --transition-speed: 1000ms;
+}
+
+.noSelect {
+  webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

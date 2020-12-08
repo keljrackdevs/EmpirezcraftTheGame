@@ -1,0 +1,29 @@
+:root {
+
+}
+
+.input-text {
+  font-size: 3rem;
+}
+
+.input-field {
+  font-size: 3rem;
+  color: #2B261E;
+  background-color: #352D22;
+}
+
+.message-field {
+  font-size: 3rem;
+  color: #2B261E;
+  background-color: #352D22;
+}
+
+.inputButton {
+  font-size: 3rem;
+  color: #2B261E;
+  background-color: #352D22;
+}
+
+.warningText {
+  color: red;
+}
